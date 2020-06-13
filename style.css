@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.highlight{
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.text{
+    padding-top: 20px;
+}
+
+.box{
+    width: 33.33%;
+    border: 10px;
+    float: left;
+    
+}
+
+#content1{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 12px;
+    background-color: gray;
+    position: relative;
+    
+}
+
+#content2{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 12px;
+    background-color: gray;
+    position: relative;
+    
+}
+
+#content3{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 12px;
+    background-color: gray;
+    position: relative;
+    
+}
+
+#region1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    width: 25%;
+    background-color: coral;
+}
+
+#region2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    width: 25%;
+    background-color: darkseagreen;
+}
+
+#region3{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    width: 25%;
+    background-color: cornsilk;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .box{
+        width: 50%;
+    }
+    
+    #content3{
+        position: absolute;
+        width: 94%;
+        
+    }    
+    #region3{
+        width: 13%;
+    }
+    
+}
+
+@media (max-width:767px){
+    .box{
+        width: 100%;
+    }
+}
+
